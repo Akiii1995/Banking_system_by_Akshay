@@ -70,7 +70,7 @@ class TransactionCreateMixin(LoginRequiredMixin, CreateView):
 
         return context
 
-
+#deposite money view
 class DepositMoneyView(TransactionCreateMixin):
     form_class = DepositForm
     title = 'Deposit Money to Your Account'
